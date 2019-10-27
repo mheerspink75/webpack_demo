@@ -4,9 +4,7 @@
 
 #### WebPack Demo
 
-##### Step 0:
-
-Install Node and NPM: https://nodejs.org/en/ 
+##### Step 0:   Install Node and NPM: https://nodejs.org/en/ 
 
 ##### Step 1: initialize a new application with npm init 
 * type npm init in the terminal and answer the questions
@@ -42,13 +40,13 @@ module.exports = {
 }
 ```
 
-##### Step 5: in package.json, add the script
+##### Step 5: in package.json, add the script...
 
 ```
 "webpack": "webpack"
 ```
 
-and run your Webpack bundling using
+##### then run your Webpack bundling using
 
 ```
 npm run webpack
