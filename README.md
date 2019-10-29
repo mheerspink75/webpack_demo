@@ -31,7 +31,7 @@ npm i webpack webpack-cli --save-dev
 const path = require('path'); 
 
 module.exports = {
-    entry: './index.js',
+    entry: './src/index.js',
     output: {
         filename: 'dist.js',
         path: path.resolve(__dirname, './dist')
