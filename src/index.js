@@ -1,3 +1,4 @@
 import appendParagraph from './jsFile2.js';
+import "./jsFile3.js"
 
-appendParagraph('Hello World!');
+appendParagraph('0101010101010101')
