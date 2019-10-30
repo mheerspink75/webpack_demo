@@ -91,9 +91,12 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _jsFile2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _jsFile3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var _jsFile3_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_jsFile3_js__WEBPACK_IMPORTED_MODULE_1__);
 
 
-Object(_jsFile2_js__WEBPACK_IMPORTED_MODULE_0__["default"])('Hello World!');
+
+Object(_jsFile2_js__WEBPACK_IMPORTED_MODULE_0__["default"])('0101010101010101')
 
 /***/ }),
 /* 1 */
@@ -106,6 +109,17 @@ function appendParagraph(text) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (appendParagraph);
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+var render = (header, node) => {
+    node.innerHTML = header;
+};
+
+var header = `<h1>Hello world!</h1><h2>Test</h2>`;
+render(header, document.querySelector('#main'));
 
 /***/ })
 /******/ ]);
